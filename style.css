@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  margin: 1% 5%;
+}
+.nav_grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5%;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  height: 5%;
+  width: 100%;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.login {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 5px;
+}
+.country {
+  display: flex;
+
+  gap: 5px;
+}
+.login_register {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.navbarbox {
+  border: 1px solid;
+  border-radius: 10px;
+  border: 1px solid;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  padding-left: 10px;
+
+  justify-content: flex-start;
+
+  border-radius: 10px;
+}
+.navbar a {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+.searchbar {
+  background-color: black;
+}
+.navbarsecond {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.navbarsecond a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+.navbarsecond a:hover {
+  background-color: gray;
+  padding: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+.one {
+  background-color: gray;
+  padding: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+.under {
+  display: flex;
+  gap: 15px;
+}
+
+.profile {
+  margin-top: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 70%;
+  border: 1px solid;
+  padding: 15px;
+}
+.sidebar {
+  margin: 4px;
+  height: 100%;
+  width: 30%;
+  flex-direction: row;
+}
+
+.logo_one {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.picture {
+  border: 1px solid;
+  padding: 10px 15px;
+}
+.pic-victory {
+  position: absolute;
+  z-index: 10;
+  top: 75%;
+  left: 85%;
+}
+.pic-vic {
+  position: absolute;
+  top: 75%;
+  left: 75%;
+}
+.event-details {
+  margin-top: 10px;
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 12.5px;
+}
+.table1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.payattention {
+  border: 1px solid;
+  padding-left: 10px;
+}
+.payattention-details {
+  padding-top: 5px;
+  display: flex;
+  border: 1px solid;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.payattention {
+  border: 1px solid;
+  padding-left: 10px;
+}
+.toprated {
+  margin-top: 20px;
+  border: 1px solid;
+}
